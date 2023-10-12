@@ -1,67 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Source+Code+Pro:wght@500&display=swap');
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro:wght@500&display=swap');
 
 body{
-    font-family: 'Poppins', sans-serif;
     color: white;
-    height: 100%;
-    width: 80%;
+    font-family:'Poppins';
     margin: auto;
-    background: rgb(56,56,56);
-    background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(21,48,68,1) 100%);
 }
 
-header ul, li{
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+ /* <---------- CABEÇALHO ----------> */
+.container{
+    background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(21,48,68,1) 80%);
 }
 
-.BNT{
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 8px 30px;
-    border-radius: 24px;
-    background: rgb(192,139,3);
-    background: linear-gradient(132deg, rgba(192,139,3,1) 15%, rgba(255,220,38,1) 100%);
+.container2{
+ background-color: rgb(46, 46, 46);
 }
 
 header{
-    margin-top: 35px;
+    
+    margin: auto;
+    width: 85%; /* implica que 10% existirá um espaço na esq e direita do body */
+    font-size: 17px;
+    padding-top: 35px;
+}
+
+header ul, li, a{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style:none;
+    list-style: none;
     
 }
 
-main{
+header section{
     display: flex;
     justify-content: space-between;
 }
 
 .container-text{
-    margin-top: 70px;
-   display: flex;
-   flex-direction: column;
-   width: 250px;
+    margin-top: 0;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 280px;
 }
 
 .destaque{
-    display: flex;
     color: rgb(82,245,204);
-    gap:10px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: -5px;
 }
 
 .container-text h1{
+    line-height: 60px;
     font-weight: 700;
     font-size: 60px;
-    line-height: 60px;
 }
 
 .styletext{
+    font-weight: 100;
     text-align: left;
     line-height: 18px;
     font-size: 15px;
@@ -69,9 +78,68 @@ main{
 
 .imagePrincipal{
     margin-top: 100px;
-    margin-bottom: -5px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .imagePrincipal img{
-    height: 800px;    
+    height: 800px;
+ 
 }
+
+  /* <---------- SECTION 1 ----------> */
+.hero1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 85%; /* implica que 10% existirá um espaço na esq e direita do body */
+}
+
+.div1-hero1{
+    background-color: rgb(27, 27, 27);
+    padding: 40px 20px;
+    border-radius: 20px;
+    transition: background-color 1s ease;
+}
+
+.div1-hero1:hover{
+    transition: background-color 0.5s ease;
+    padding: 40px 20px;
+    background-color: rgb(31, 57, 74);
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px rgba(54, 100, 130, 0.741);
+}
+
+.container-text2{
+    margin-top: 0;
+    justify-content:center;
+    flex-direction:column;
+    width: 390px;
+}
+
+.container-text2 h2{
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.div1-hero1 img{
+    height: 500px;  
+}
+.BTN2{
+    display: flex;
+}
+
+.BTN{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    background: rgb(194,139,0);
+    background: linear-gradient(137deg, rgba(194,139,0,1) 37%, rgba(255,220,38,1) 100%);
+    border-radius: 24px;
+}
+
+
