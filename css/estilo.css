@@ -50,11 +50,6 @@ header ul, li, a{
     z-index: 1000;
     list-style: none;
 }
-/* header ul{
-    display: flex;
-    align-items: center;
-    list-style: none; 
-} */
 
 header section{
     display: flex;
