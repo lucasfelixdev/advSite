@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Code+Pro:wght@500&display=swap');
 
 body{
     color: white;
@@ -15,6 +15,11 @@ body{
 .container2{
  background-color: rgb(46, 46, 46);
 }
+
+.container3{
+    background: linear-gradient(180deg, rgb(22, 50, 73) 10%, rgb(13, 32, 48) 100%);
+}
+
 
 header{
     margin: auto;
@@ -62,7 +67,18 @@ header section{
     justify-content:center;
     flex-direction: column;
     width: 280px;
+    opacity: 0;
+    animation: fadeIn 4s ease forwards;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
 .destaque{
     color: rgb(82,245,204);
@@ -89,7 +105,7 @@ header section{
     margin-top: 100px;
     display: flex;
     opacity: 0; /* Inicialmente, define a opacidade para zero */
-    animation: fadeIn 1s ease-out forwards; /* Adiciona animação de fade-in */
+    animation: fadeIn 2s ease-out forwards; /* Adiciona animação de fade-in */
     top: 30px;
 
 }
@@ -157,6 +173,11 @@ header section{
     display: flex;
 }
 
+.BTN3{
+    display: flex;
+    justify-content: center;
+}
+
 .BTN{
     font-weight: 700;
     text-transform: uppercase;
@@ -166,4 +187,85 @@ header section{
     border-radius: 24px;
 }
 
+.BTNCALL{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333;
+    padding: 20px 100px;
+    background: rgb(194,139,0);
+    background: linear-gradient(137deg, rgba(194,139,0,1) 0%, rgba(255,220,38,1) 60%);
+    border-radius: 10px;
+}
 
+ /* <---------- SECTION 2 ----------> */
+
+ .hero2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 85%; /* implica que 10% existirá um espaço na esq e direita do body */
+}
+
+ .banner{
+    background-color: #272727;
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .align-itens{
+    justify-content: center;
+ }
+
+ .circle{
+    z-index: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(131, 230, 163) 0%, rgb(81, 143, 102) 80%);
+    height: 12em;
+    width: 12em;
+    border-bottom-right-radius: 190px;
+    border-top-left-radius: 50px;
+ }
+
+ .circle2{
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    right:0px;
+    background: linear-gradient(180deg, rgb(131, 230, 163) 20%, rgb(81, 143, 102) 50%);
+    height: 12em;
+    width: 12em;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 190px;
+ }
+
+ .contentText, h2{
+    font-size: 35px;
+    font-weight: 600;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+
+ .line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+ .line1{
+    background: linear-gradient(260deg, rgb(131, 230, 163) 0%, rgb(81, 143, 102) 80%);
+    width: 150px;
+    height: 4px;
+ }
