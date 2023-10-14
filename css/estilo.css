@@ -155,8 +155,7 @@ header section{
 }
 
 .container-text2{
-    margin-top: 0;
-    justify-content:center;
+    display: flex;
     flex-direction:column;
     width: 390px;
 }
@@ -172,6 +171,8 @@ header section{
 }
 .BTN2{
     display: flex;
+    color: #1c1c1c;
+    font-weight: 100;
 }
 
 .BTN3{
@@ -180,7 +181,7 @@ header section{
 }
 
 .BTN{
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     padding: 8px 30px;
     background: rgb(194,139,0);
@@ -254,9 +255,6 @@ header section{
     font-size: 35px;
     font-weight: 600;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
     margin-bottom: 20px;
  }
 
@@ -272,41 +270,26 @@ header section{
  }
 
  .rodape{
-    background-color:rgb(30, 30, 30);
+    background-color: rgb(30, 30, 30);
     height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .rodape p{
+    color: #fff;
  }
 
-  /* MEDIA QUARES */
+ .rodape a{
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 25px;
 
+ }
 
-
-
-
-
-
-
-
-
-
- /* @media (min-width: 1600px){
-    .container-text{
-        width: 600px;
-        font-weight: 600;
-    }}
-
- @media (min-width: 2144px){
-    .container-text{
-        justify-items: center;
-        width: 879px;
-    }
-
-    .container-text h1{
-        font-size: 90px;
-    }
-
-    .container-text p{
-        font-weight: 200;
-        font-size: 25px;
-        line-height: 30px;
-    }
-} */
+ 
