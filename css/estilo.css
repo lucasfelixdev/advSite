@@ -66,7 +66,6 @@ header section{
 }
 
 .container-text{
-    /* padding-top: 40px; */
     margin-top: 0;
     display: flex;
     justify-content:center;
@@ -74,6 +73,7 @@ header section{
     width: 280px;
     opacity: 0;
     animation: fadeIn 4s ease forwards;
+    margin-bottom: 8em;
 }
 
 @keyframes fadeIn {
@@ -124,7 +124,7 @@ header section{
 
 .imagePrincipal img{
     display: flex;
-    height: 800px;
+    height: 850px;
 }
 
 
@@ -213,6 +213,7 @@ header section{
 }
 
  .banner{
+    background: linear-gradient(50deg, #303030 0%, #272727 80%);
     background-color: #272727;
     width: 100%;
     height: 500px;
@@ -240,15 +241,15 @@ header section{
  }
 
  .circle2{
-    z-index: 0;
+    z-index: 100;
     position: absolute;
     bottom: 0;
     right:0px;
-    background: linear-gradient(180deg, rgb(131, 230, 163) 50%, rgb(81, 143, 102) 100%);
-    height: 12em;
-    width: 12em;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 190px;
+    background-image: url("../imagens/Intersection-2.svg");
+    background-size: cover; 
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
  }
 
  .contentText, h2{
