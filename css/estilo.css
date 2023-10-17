@@ -343,13 +343,40 @@ header section{
         
     }
 
+    .container2{
+        display: flex;
+    }
+
+    .hero1{
+        padding: 100px 0 150px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .container-text2{
+        justify-content: center;
+        width: 530px;
+        text-align: justify;
+    }
+
+    .container-text2 h2{
+        font-size: 40px;
+    }
+
+    .BTN2 {
+        justify-content: center;
+    }
+
     .destaque{
         justify-content: center;
     }
 
     .container .imagePrincipal img{
         height: 700px;
-    }  
+    } 
+    
+    
  }
 
 
