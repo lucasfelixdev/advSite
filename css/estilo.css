@@ -362,12 +362,17 @@ header section{
 
     .container-text2 h2{
         font-size: 40px;
+        display: flex;
+        justify-content: center;
     }
 
     .BTN2 {
         justify-content: center;
     }
 
+    .div1-hero1{
+        margin-top: 70px;
+    }
     .destaque{
         justify-content: center;
     }
