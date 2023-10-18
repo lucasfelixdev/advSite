@@ -293,10 +293,16 @@ header section{
 
  }
 
+    /* RESPONSIVIDADE */
+
+
  @media (min-width: 1845px) {
     header .container-text{
-        width: 775px;
+        margin-top: 50px;
+        width: 950px;
         margin-bottom: 0em;
+        justify-content: flex-start;
+
     }
     .container-text h1{
         font-size: 6.7rem;
@@ -309,6 +315,16 @@ header section{
         letter-spacing: 1px;
         font-weight: 400;
         
+    }
+    
+    .container-text2{
+        font-size: 1.4em;
+        margin: 0;
+        width: 1400px;
+    }
+
+    .imagePrincipal img{
+        height: 800px;
     }
  }
 
