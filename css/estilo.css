@@ -402,7 +402,7 @@ header section{
     }}
 
 @media (max-width: 550px){
-        .nav{
+        header nav{
             display:none;     
         }
 
