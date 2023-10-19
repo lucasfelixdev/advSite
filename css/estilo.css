@@ -11,6 +11,7 @@ body{
 .container{
     background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(21,48,68,1) 80%);
     height: 100vh;
+    width: 100%;
     position: relative;
     display: flex;
 }
@@ -32,7 +33,9 @@ header{
     display: flex;
     justify-content: space-between
 }
-
+.logo{
+    display: none;
+}
 body ul, li, a{
     padding: 0;
     margin-top: 0;
@@ -56,7 +59,7 @@ body ul, li, a{
     padding: 10px;
     background-color: #333;
     color: #fff;
-    z-index: 1000;
+    z-index: 1;
     list-style: none;
 }
 
@@ -295,7 +298,6 @@ header section{
 
     /* RESPONSIVIDADE */
 
-
  @media (min-width: 1845px) {
     header .container-text{
         margin-top: 50px;
@@ -328,7 +330,9 @@ header section{
     }
  }
 
- @media (max-width: 1024px){
+
+
+ @media (max-width: 1286px){
     
     .container{
         height: 100%;
@@ -345,7 +349,7 @@ header section{
 
     .container-text{
         margin-top: 8em;
-        width: 700px;
+        width: 80%;
         margin-bottom: 0em;
     }
 
@@ -372,7 +376,7 @@ header section{
 
     .container-text2{
         justify-content: center;
-        width: 530px;
+        width: 80%;
         text-align: justify;
     }
 
@@ -395,10 +399,45 @@ header section{
 
     .container .imagePrincipal img{
         height: 700px;
-    } 
-    
-    
- }
+    }}
+
+@media (max-width: 550px){
+        .nav{
+            display:none;     
+        }
+
+        .menu-section{
+            
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            z-index: 1;
+            list-style: none;
+        }
+
+        .one,.two,.three{
+           background-color: #fff; 
+           height: 4px;
+           width: 90%;
+           margin: 6px;
+        }
+        .menu-toggle{
+            width: 40px;   
+        }
+
+        .logo {
+            width: 58px; /* Defina a largura desejada */
+            height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
+            display: inline;
+          }
 
 
+    
+} 
  
