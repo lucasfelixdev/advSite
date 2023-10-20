@@ -405,13 +405,14 @@ header section{
 
 @media (max-width: 500px){
         .container-text{
+            margin-top: 3em;
             width: 360px
         }
         .container-text .styletext{
             font-size: 17px;
         }
 
-        .container-text2{width: 90%;}
+        .container-text2{width: 95%;}
         .container-text2 h2{
             text-align: center;
             font-size: 35px;
@@ -419,17 +420,14 @@ header section{
         }
 
         .container-text2 p{
-            font-size: 20px;
+            font-size: 14px;
         }
         .menu-section{
-            
-            top: 0;
-            left: 0;
             width: 100%;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
-            padding: 10px;
+            padding: 10px 100%;
             background-color: #333;
             color: #fff;
             z-index: 1;
@@ -447,9 +445,9 @@ header section{
         }
 
         .logo {
-            width: 58px; /* Defina a largura desejada */
-            height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
-            display: inline;
+            margin-left: -19px;
+            height:65px;
+            display: inline; 
           }
 
         .wrapper{
