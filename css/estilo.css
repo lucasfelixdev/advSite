@@ -10,7 +10,7 @@ body{
  /* <---------- CABEÇALHO ----------> */
 .container{
     background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(21,48,68,1) 80%);
-    height: 100dvh;
+    height: 100%;
     position: relative;
     display: flex;
 }
@@ -121,7 +121,7 @@ header section{
 
 .imagePrincipal img{
     display: flex;
-    height: 850px;
+    height: 700px;
 }
 
 
