@@ -7,23 +7,25 @@ body{
     margin: auto;
 }
 
- /* <---------- CABEÇALHO ----------> */
+ /* <---------- Container Header ----------> */
 .container{
     background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(21,48,68,1) 80%);
     height: 100%;
     position: relative;
-    display: flex;
+    
 }
 
+ /* <---------- Container Main ----------> */
 .container2{
  background-color: rgb(46, 46, 46);
 }
 
+ /* <---------- Container Footer ----------> */
 .container3{
     background: linear-gradient(220deg, rgb(83, 103, 120) 0%, rgb(36, 53, 67) 50%);
 }
 
-
+ /* <---------- CABEÇALHO ----------> */
 header{
     margin: auto;
     margin-bottom: 0;
@@ -56,13 +58,9 @@ body ul, li, a{
     list-style: none;
 }
 
-header section{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .container-text{
+    padding-top: 120px;
+    padding-right: 120px;
     display: flex;
     justify-content:center;
     flex-direction: column;
@@ -91,7 +89,7 @@ header section{
 .container-text h1{
     line-height: 70px;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .styletext{
@@ -103,6 +101,7 @@ header section{
 }
 
 .imagePrincipal{
+    margin-top: 5%;
     position: relative;
     opacity: 0; 
     animation: fadeIn 2s ease-out forwards; 
@@ -121,7 +120,7 @@ header section{
 
 .imagePrincipal img{
     display: flex;
-    height: 700px;
+    height: 650px;
 }
 
 

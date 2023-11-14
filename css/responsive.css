@@ -2,6 +2,7 @@
     /* RESPONSIVIDADE */
 
     @media (min-width: 1845px) {
+        
         header .container-text{
             margin-top: 50px;
             width: 950px;
@@ -30,18 +31,13 @@
      }
     
     
-    
-
-
-     
-
-
 
      @media (max-width: 1286px){
         
         .container{
             height: 100%;
         }
+
         header{
             flex-direction: column;
             align-items: center;
@@ -53,6 +49,7 @@
         }
     
         .container-text{
+            padding: 0;
             margin-top: 8em;
             width: 80%;
             margin-bottom: 0em;
