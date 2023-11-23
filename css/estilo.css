@@ -5,6 +5,10 @@ body{
     color: white;
     font-family:'Poppins';
     margin: auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
 }
 
  /* <---------- Container Header ----------> */
@@ -30,6 +34,7 @@ header{
     margin: auto;
     margin-bottom: 0;
     width: 85%;
+    height: 100vh;
     font-size: 17px;
     display: flex;
     justify-content: space-between
@@ -96,16 +101,16 @@ body ul, li, a{
     font-weight: 300;
     text-align: left;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 90px;
 }
 
 .imagePrincipal{
-    margin-top: 5%;
     position: relative;
+    bottom: -60px;
     opacity: 0; 
     animation: fadeIn 2s ease-out forwards; 
-    bottom: -20px;
+
 }
 
 @keyframes fadeIn {
@@ -113,14 +118,13 @@ body ul, li, a{
       opacity: 0;
     }
     to {
-        bottom: 0;
-      opacity: 1;
+        bottom: -50px;
+        opacity: 1;
     }
   }
 
 .imagePrincipal img{
-    display: flex;
-    height: 650px;
+    height: 600px;
 }
 
 
