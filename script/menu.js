@@ -1,5 +1,5 @@
-let show = true;
 
+let show = true;
 const menuSection = document.querySelector(".menu-section")
 const menuToggle = document.querySelector(".menu-toggle")
 
